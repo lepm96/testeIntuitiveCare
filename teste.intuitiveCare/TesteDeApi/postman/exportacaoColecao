@@ -1,0 +1,83 @@
+{
+  "info": {
+    "_postman_id": "a1b2c3d4-e5f6-7890",
+    "name": "Operadoras de Saúde API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Buscar Operadoras",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/operadoras/buscar?termo=saude",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "operadoras", "buscar"],
+          "query": [
+            {
+              "key": "termo",
+              "value": "saude"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Buscar Operadoras - Exemplo de Resposta",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/operadoras/buscar?termo=saude",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "operadoras", "buscar"],
+          "query": [
+            {
+              "key": "termo",
+              "value": "saude"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Exemplo de Resposta",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/operadoras/buscar?termo=saude",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "operadoras", "buscar"],
+              "query": [
+                {
+                  "key": "termo",
+                  "value": "saude"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "[{\"registroAns\":\"12345\",\"razaoSocial\":\"SAUDE EXEMPLO LTDA\",\"nomeFantasia\":\"SAUDE EXEMPLO\",\"cidade\":\"SÃO PAULO\",\"uf\":\"SP\",\"telefone\":\"(11) 9999-9999\"}]"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+operadoras-frontend/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   └── OperadoraList.vue
+│   ├── App.vue
+│   ├── main.js
+│   └── ...
+├── package.json
+└── ...

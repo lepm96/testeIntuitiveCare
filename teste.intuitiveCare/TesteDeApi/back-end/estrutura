@@ -1,0 +1,19 @@
+operadoras-api/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/operadorasapi/
+│   │   │   ├── controller/
+│   │   │   │   ├── OperadoraController.java
+│   │   │   ├── model/
+│   │   │   │   ├── Operadora.java
+│   │   │   ├── repository/
+│   │   │   │   ├── OperadoraRepository.java
+│   │   │   ├── service/
+│   │   │   │   ├── OperadoraService.java
+│   │   │   ├── OperadorasApiApplication.java
+│   │   ├── resources/
+│   │   │   ├── application.properties
+│   │   │   ├── operadoras.csv
+│   ├── test/
+├── pom.xml
+
