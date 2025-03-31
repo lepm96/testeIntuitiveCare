@@ -1,4 +1,10 @@
 # TESTES PROCESSO SELETIVO INTUITIVE CARE
+## 🔍 Visão Geral
+Solução completa para os 4 desafios técnicos, implementando:
+- Web scraping de documentos governamentais
+- Pipeline de transformação de dados
+- Análise de dados em SQL
+- API REST com interface web
 
 ## 1. TESTE DE WEB SCRAPING
 **Tecnologias utilizadas:**
